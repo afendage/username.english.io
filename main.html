@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英语学习目录</title>
+<style>
+    * { box-sizing: border-box; }
+    body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+        background: #f5f7fb;
+        color: #1f2937;
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 48px 20px;
+    }
+    .header {
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    .header h1 {
+        margin: 0 0 10px;
+        font-size: 32px;
+    }
+    .header p {
+        margin: 0;
+        color: #6b7280;
+    }
+    .section {
+        margin-bottom: 28px;
+    }
+    .section-title {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 14px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 14px;
+    }
+    a.card {
+        display: block;
+        padding: 20px;
+        background: white;
+        border: 1px solid #e5e7eb;
+        border-radius: 14px;
+        text-decoration: none;
+        color: inherit;
+        transition: .2s;
+        box-shadow: 0 2px 8px rgba(0,0,0,.04);
+    }
+    a.card:hover {
+        transform: translateY(-2px);
+        border-color: #6366f1;
+        box-shadow: 0 8px 20px rgba(99,102,241,.12);
+    }
+    .name {
+        font-size: 17px;
+        font-weight: 700;
+        margin-bottom: 6px;
+    }
+    .file {
+        font-size: 13px;
+        color: #9ca3af;
+    }
+    .footer {
+        text-align: center;
+        margin-top: 40px;
+        color: #9ca3af;
+        font-size: 13px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>英语学习目录</h1>
+        <p>选择课程，直接进入对应学习页面</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">基础课程</div>
+        <div class="grid">
+            <a class="card" href="https://afendage.github.io/username.english.io/unit1.html">
+                <div class="name">Unit 1</div>
+                <div class="file">unit1.html</div>
+            </a>
+            <a class="card" href="https://afendage.github.io/username.english.io/unit2.html">
+                <div class="name">Unit 2</div>
+                <div class="file">unit2.html</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">阅读 / 课文</div>
+        <div class="grid">
+            <a class="card" href="https://afendage.github.io/username.english.io/bs001.html">
+                <div class="name">BS 001</div>
+                <div class="file">bs001.html</div>
+            </a>
+            <a class="card" href="https://afendage.github.io/username.english.io/bs002.html">
+                <div class="name">BS 002</div>
+                <div class="file">bs002.html</div>
+            </a>
+            <a class="card" href="https://afendage.github.io/username.english.io/c100.html">
+                <div class="name">C100</div>
+                <div class="file">c100.html</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">GPT 学习内容</div>
+        <div class="grid">
+            <a class="card" href="https://afendage.github.io/username.english.io/gptv4.html">
+                <div class="name">GPT V4</div>
+                <div class="file">gptv4.html</div>
+            </a>
+            <a class="card" href="https://afendage.github.io/username.english.io/gptv5.html">
+                <div class="name">GPT V5</div>
+                <div class="file">gptv5.html</div>
+            </a>
+            <a class="card" href="https://afendage.github.io/username.english.io/gptv6.html">
+                <div class="name">GPT V6</div>
+                <div class="file">gptv6.html</div>
+            </a>
+            <a class="card" href="https://afendage.github.io/username.english.io/gptv7.html">
+                <div class="name">GPT V7</div>
+                <div class="file">gptv7.html</div>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        English Learning · Course Navigation
+    </div>
+</div>
+</body>
+</html>
